@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="a7ZtmQ" name="Customizing Dials" projectType="guiapp" useAppConfig="1"
+              addUsingNamespaceToJuceHeader="1" displaySplashScreen="1" jucerFormatVersion="1">
+  <MAINGROUP id="bV1AoA" name="Customizing Dials">
+    <GROUP id="{EC5025F1-D6A3-93D0-3544-9FD57CB5143D}" name="Source">
+      <FILE id="wHdmtU" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+      <FILE id="rl2wiJ" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="E9WBbS" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+    </GROUP>
+  </MAINGROUP>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1"/>
+  <EXPORTFORMATS>
+    <VS2022 targetFolder="Builds/VisualStudio2022">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="Customizing Dials"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="Customizing Dials"/>
+      </CONFIGURATIONS>
+    </VS2022>
+  </EXPORTFORMATS>
+  <MODULES/>
+</JUCERPROJECT>
